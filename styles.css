@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;;
+}
+
+.rps-btn {
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#score-h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#round-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#computer-score, #human-score, #round-number{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.score-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.choices-div {
+    margin: 10px;
+}
+
+#game-container {
+    border: solid 2px burlywood;
+    border-radius: 5px;
+    margin-top: 100px;
+}
